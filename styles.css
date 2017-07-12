@@ -1,33 +1,33 @@
 h1 {
-  font-family: 'Lemonada', cursive;
+  font-family: 'Poiret One', cursive;
   font-size: 32px;
   color: #FFFFFF;
 }
 h2 {
-  font-family: 'Lemonada', cursive;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 28px;
   color: #00008b;
   background-color: #FFFFFF;
 }
 p {
-  font-family: 'Lemonada', cursive;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 16px;
   color: #ff0000;
 }
 a {
-  font-family: 'Lemonada', cursive;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 16px;
   color: #000000;
   border-color: #ff0000;
 }
 h4 {
-  font-family: 'Lemonada', cursive;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 14px;
   color: #00008b;
   background-color: #FFFFFF;
 }
 ul {
-  font-family: 'Lemonada', cursive;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 13px;
   color: #ff0000;
 }
@@ -35,7 +35,11 @@ body {
   background-color: #c4e3ff;
 }
 img {
-  border: 2px;
-  border-style: groove;
+  /*border-left-width: 1.49999997px;*/
+  /*border-right-width: 1.49999997px;*/
+  /*border-bottom-width: 1.49999997px;*/
+  /*border-top-width: 1.49999997px;*/
+  border: 1px;
+  border-style: solid;
   border-color: #ff0000;
 }
