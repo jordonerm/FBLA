@@ -1,0 +1,30 @@
+h1 {
+  font-family: sans;
+  font-size: 32px;
+  color: black;
+}
+h2 {
+  font-family: Verdana;
+  font-size: 28px;
+  color: red;
+}
+p {
+  font-family: Verdana;
+  font-size: 16px;
+  color: blue;
+}
+a {
+  font-family: Verdana;
+  font-size: 16px;
+  color: black;
+}
+h4 {
+  font-family: Verdana;
+  font-size: 14px;
+  color: red;
+}
+ul {
+  font-family: Verdana;
+  font-size: 13px;
+  color: blue;
+}
