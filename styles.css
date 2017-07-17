@@ -18,9 +18,26 @@ p {
 a {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 16px;
-  color: #000000;
+  color: #00008b;
+  border-color: #00008b;
+}
+img {
+  /*border-left-width: 1.49999997px;*/
+  /*border-right-width: 1.49999997px;*/
+  /*border-bottom-width: 1.49999997px;*/
+  /*border-top-width: 1.49999997px;*/
+  border: 1px;
+  border-style: solid;
   border-color: #ff0000;
 }
+
+/* mouse over link */
+img:hover {
+    border-color: #00008b;
+    border-style: solid;
+    border: 2px
+}
+
 h4 {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 14px;
@@ -34,13 +51,4 @@ ul {
 }
 body {
   background-color: #c4e3ff;
-}
-img {
-  /*border-left-width: 1.49999997px;*/
-  /*border-right-width: 1.49999997px;*/
-  /*border-bottom-width: 1.49999997px;*/
-  /*border-top-width: 1.49999997px;*/
-  border: 1px;
-  border-style: solid;
-  border-color: #ff0000;
 }
