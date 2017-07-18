@@ -1,8 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#logo {
+  position: absolute;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#wrapper {
+  margin-left: 110px;
+}
+
 h1 {
+  padding: 20px;
   font-family: 'Poiret One', cursive;
   font-size: 32px;
   color: #FFFFFF;
-  text-align: center;
+  text-align: right;
+  background-color: #0054a3;
 }
 h2 {
   font-family: 'Didact Gothic', sans-serif;
@@ -28,14 +45,14 @@ img {
   /*border-top-width: 1.49999997px;*/
   border: 1px;
   border-style: solid;
-  border-color: #ff0000;
+  border-color: #aa0000;
 }
 
 /* mouse over link */
 img:hover {
     border-color: #00008b;
     border-style: solid;
-    border: 2px
+    /*border: 1px*/
 }
 
 h4 {
@@ -50,5 +67,29 @@ ul {
   color: #ff0000;
 }
 body {
-  background-color: #c4e3ff;
+  background-color: #FFFFFF;
+}
+header {
+  background-color: #0054a3;
+}
+#Navigation {
+  float: left;
+  background-color: #aa0000;
+  height: 20px;
+  text-align: left;
+}
+#Navigation ul li {
+  margin-top: -20px;
+  display: inline-block;
+  margin-right: 40px;
+  font-family: 'Poiret One', cursive;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: left;
+}
+#Navigation ul li a {
+  color: #FFFFFF;
+  font-family: 'Poiret One', cursive;
+  font-size: 16px;
+  text-align: left;
 }
