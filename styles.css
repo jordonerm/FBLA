@@ -126,13 +126,18 @@ header {
   padding: 10px;
   background-color: #98B1CE;
 }
+#Main-Article-Content:hover {
+  border: .000005px;
+  border-style: solid;
+  border-color: #252D37;
+}
 #Main-Page-Photo {
   border: 1px;
   border-style: solid;
   /*border-color: #aa0000;*/
   border-color: #98B1CE;
   height: 400px;
-  width: 600px;
+  width: 660px;
 }
 #Main-Page-Photo:hover {
   /*border-color: #00008b;*/
